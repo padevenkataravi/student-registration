@@ -9,12 +9,12 @@ public class Student {
     private String phoneNumber;
     private Address address;
     private String enrollmentDate;
-  //  private enum status;
+    private StudentStatus status;
 
 
     public Student(){}
 
-    public Student(String enrollmentDate, Address address, String phoneNumber, String email, String dateOfbirth, String lastName, String firstName, int studentId) {
+    public Student(String enrollmentDate,StudentStatus status, Address address, String phoneNumber, String email, String dateOfbirth, String lastName, String firstName, int studentId) {
         this.enrollmentDate = this.enrollmentDate;
         this.address = address;
         this.phoneNumber = phoneNumber;
@@ -23,6 +23,15 @@ public class Student {
         this.lastName = lastName;
         this.firstName = firstName;
         this.studentId = studentId;
+        this.status = status;
+    }
+
+    public StudentStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(StudentStatus status) {
+        this.status = status;
     }
 
     public String getEnrollmentDate() {
