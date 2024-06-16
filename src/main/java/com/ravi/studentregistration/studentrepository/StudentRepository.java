@@ -45,6 +45,16 @@ public class StudentRepository {
            if(student.getStatus() != null){
               s.setStatus(student.getStatus());
            }
+           if(student.getDateOfbirth() != null){
+              s.setDateOfbirth(student.getDateOfbirth());
+           }
+           if (student.getEnrollmentDate() != null){
+              s.setEnrollmentDate(student.getEnrollmentDate());
+           }
+           if(student.getEmail() != null){
+              s.setEmail(student.getEmail());
+           }
+
             return s;
          }
       }
