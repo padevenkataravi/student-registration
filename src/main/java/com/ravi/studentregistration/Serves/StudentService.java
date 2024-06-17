@@ -3,11 +3,11 @@ package com.ravi.studentregistration.Serves;
 import com.ravi.studentregistration.entity.Student;
 import com.ravi.studentregistration.studentrepository.StudentRepository;
 
-public class StudentService {
-    public static void main(String[] args) {
+//public class StudentService {
+   // public static void main(String[] args) {
 
 
-    private StudentRepository studentRepository;
+  /*  private StudentRepository studentRepository;
 
     public StudentService() {
         this.studentRepository = new StudentRepository();
@@ -40,6 +40,6 @@ public class StudentService {
         List<Student> allStudents = studentRepository.getAllStudents();
         return allStudents;
     }
-}
+//}
 
-}
+}*/
