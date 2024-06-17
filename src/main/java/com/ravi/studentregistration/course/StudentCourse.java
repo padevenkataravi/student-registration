@@ -15,7 +15,7 @@ public class StudentCourse {
 
     public StudentCourse() {}
 
-    public StudentCourse(int courseId, String courseName, String description, int duration, String instructor, String startDate, String endDate, StudentStatus status) {
+    public StudentCourse(int courseId, String courseName, String description, String duration, String instructor, String startDate, String endDate, StudentStatus status) {
         this.courseId = courseId;
         this.courseName = courseName;
         this.description = description;
@@ -50,11 +50,11 @@ public class StudentCourse {
         this.description = description;
     }
 
-    public int getDuration() {
+    public String getDuration() {
         return duration;
     }
 
-    public void setDuration(int duration) {
+    public void setDuration(String duration) {
         this.duration = duration;
     }
 
