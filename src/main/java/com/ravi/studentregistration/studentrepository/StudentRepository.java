@@ -51,11 +51,8 @@ public class StudentRepository {
            if (student.getEnrollmentDate() != null){
               s.setEnrollmentDate(student.getEnrollmentDate());
            }
-           if(student.getEmail() != null){
-              s.setEmail(student.getEmail());
-           }
 
-            return s;
+                      return s;
          }
       }
       throw null;
