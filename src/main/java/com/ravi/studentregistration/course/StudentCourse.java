@@ -7,7 +7,7 @@ public class StudentCourse {
     private int courseId;
     private String courseName;
     private String description;
-    private int duration;
+    private String duration;
     private String instructor;
     private String startDate;
     private String endDate;
